@@ -1,0 +1,17 @@
+CREATE TABLE `signup` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `fname` varchar(45) NOT NULL,
+  `lname` varchar(45) NOT NULL,
+  `email` varchar(45) NOT NULL,
+  `adress` varchar(115) NOT NULL,
+  `state` varchar(45) NOT NULL,
+  `pin` varchar(45) NOT NULL,
+  `country` varchar(45) NOT NULL,
+  `dob` varchar(45) NOT NULL,
+  `gender` varchar(45) NOT NULL,
+  `phone` varchar(45) NOT NULL,
+  `pass` varchar(45) NOT NULL,
+  `repass` varchar(45) NOT NULL,
+  `otp` varchar(45) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
